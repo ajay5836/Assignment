@@ -11,7 +11,6 @@ int main()
         scanf("%d", &a[i]);
     for (int i = 0; i < n; i++)
         sum += a[i];
-    printf("sum =%d", sum);
     avg = (float)sum / n;
     printf("\navg =%.2f", avg);
 

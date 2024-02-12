@@ -1,3 +1,4 @@
+// to find number of odd and even elements in an array
 #include<stdio.h>
 int main()
 {

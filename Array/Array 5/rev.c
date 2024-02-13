@@ -1,3 +1,4 @@
+//reversing a array using sorting 
 #include <stdio.h>
 int main()
 {

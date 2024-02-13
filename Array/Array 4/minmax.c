@@ -1,3 +1,4 @@
+// to find maximum and minimum elements in the array 
 #include <stdio.h>
 int main()
 {

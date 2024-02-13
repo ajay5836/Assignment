@@ -1,3 +1,4 @@
+//To find avg of n numbers entered in an array
 #include <stdio.h>
 int main()
 {
@@ -13,6 +14,5 @@ int main()
         sum += a[i];
     avg = (float)sum / n;
     printf("\navg =%.2f", avg);
-
     return 0;
 }

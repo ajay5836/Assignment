@@ -4,7 +4,7 @@
 void bintodec(int);
 int main()
 {
-    int num, ch;
+    int num;
     printf("Enter the binary number: ");
     scanf("%d", &num);
     bintodec(num);

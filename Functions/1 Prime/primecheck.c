@@ -1,3 +1,4 @@
+// to check whether a integer is prime or not using function 
 #include <stdio.h>
 int primeCheck();
 int main()

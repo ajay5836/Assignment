@@ -1,3 +1,4 @@
+// to convert binary number into decimal equivalent using function
 #include <stdio.h>
 #include <math.h>
 void bintodec(int);

@@ -3,7 +3,6 @@
 #include <stdlib.h>
 int main()
 {
-
     system("cls");
     int n, i, flag = 0;
     printf("Enter the size of array: ");

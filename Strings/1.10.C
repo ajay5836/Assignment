@@ -14,7 +14,7 @@ int main()
     if(res==1)
     printf("%c found in the string!");
     else 
-    printf("%c not found in the string! ");
+    printf("%c not found in the string! ",k);
     return 0;
 
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 int main()
 {
     char a[100];
@@ -10,7 +11,8 @@ int main()
     {
         if (a[i] >= 65 && a[i] <= 90 || a[i] >= 97 && a[i] <= 122)
         {
-            if (a[i] == 'A' || a[i] == 'E' || a[i] == 'I' || a[i] == 'O' || a[i] == 'U' || a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
+            a[i]=tolower(a[i]);
+            if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u')
                 v++;
             else
                 c++;
